@@ -75,8 +75,9 @@ password TEXT
 ## How to run the app
 
 Open terminal within the project file and type:
-npm init -y
-npm i express ejs pg bcrypt express-session dotenv
-npm start
+
+- npm init -y
+- npm i express ejs pg bcrypt express-session dotenv
+- npm start
 
 Then open your browser and type: http://localhost:3000
