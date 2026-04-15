@@ -1,0 +1,22 @@
+{
+  "name": "auth-project",
+  "version": "1.0.0",
+  "description": "This project is a simple but complete authentication system built using Node.js. It allows users to register, log in, and access a protected dashboard using session-based authentication.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "pg": "^8.20.0"
+  }
+}
